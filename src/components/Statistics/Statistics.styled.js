@@ -19,8 +19,6 @@ export const Li = styled.li`
 export const P = styled.p`
     display: flex;
     justify-content: center;
-    background-color: rgb(133, 155, 182);
-    //width: 100%;
     box-sizing: border-box;
     gap: 25px;
     font-weight: 700;
@@ -31,7 +29,7 @@ export const P = styled.p`
 export const Div = styled.div`
     display: flex;
     justify-content: space-around;
-    background-color: rgb(133, 155, 182);
+    background-color: #00bcd4;
     width: 100%;
     box-sizing: border-box;
     gap: 25px;

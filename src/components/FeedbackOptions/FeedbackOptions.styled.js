@@ -24,11 +24,11 @@ export const Button = styled.button`
     background-color: ${props => {
         switch(props.name){
             case 'good' :
-                return 'rgb(89, 126, 89)';
+                return 'rgb(33 237 33)';
             case 'neutral' :
-                return 'rgb(183, 183, 105)';
+                return 'rgb(255 235 59)';
             case 'bad' :
-                return 'rgb(213, 110, 110)';
+                return 'rgb(233 19 19)';
             default:
                 return 'blue'
         }
